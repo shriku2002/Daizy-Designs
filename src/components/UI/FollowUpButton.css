@@ -1,0 +1,32 @@
+.follow-up-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.follow-up-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.follow-up-icon {
+  font-size: 16px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .follow-up-btn {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .follow-up-icon {
+    font-size: 14px;
+  }
+}

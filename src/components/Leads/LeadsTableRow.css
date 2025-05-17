@@ -1,0 +1,16 @@
+.date-info, .update-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-info {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}
+
+.update-details {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}
